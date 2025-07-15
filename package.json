@@ -1,0 +1,20 @@
+{
+  "name": "randomjoke-generator",
+  "version": "1.0.0",
+  "description": "random joke generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "keywords": [
+    "randomjoke",
+    "node",
+    "backend"
+  ],
+  "author": "Shubham Rathod",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0"
+  }
+}
