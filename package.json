@@ -4,7 +4,7 @@
   "description": "random joke generator",
   "main": "app.js",
   "scripts": {
-    "test": "npm start"
+    "start": "node index.js"
   },
   "keywords": [
     "randomjoke",
