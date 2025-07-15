@@ -1,6 +1,9 @@
 const express = require("express");
+const cors = require("cors");
+app.use(cors());
 require("dotenv").config();
 const app = express();
+
 const hindiJokes = [
   {
     joke: "संता ATM में गया, स्क्रीन पर लिखा था: 'Please insert your card'\nसंता: Arey bhai, pyaar se maango... thoda respect dikhao!",
